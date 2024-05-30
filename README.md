@@ -1,4 +1,4 @@
-# firebase_authentication_demo
+# push_notification_demo
 
 A new Flutter project.
 

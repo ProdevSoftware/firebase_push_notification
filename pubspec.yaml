@@ -1,4 +1,4 @@
-name: firebase_authentication_demo
+name: push_notification_demo
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -35,19 +35,9 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.6
-  firebase_core: ^2.24.2
-  freezed_annotation: ^2.4.1
-  json_annotation: ^4.8.1
-  email_validator: ^2.1.17
-  path_provider: ^2.1.2
-  dio: ^5.4.2
-  firebase_auth: ^4.19.5
-  flutter_riverpod: ^2.5.1
-  logger: ^2.2.0
-  pinput: ^4.0.0
-  google_sign_in: ^6.2.1
-  intl_phone_field: ^3.2.0
-  firebase_analytics: ^10.10.7
+  firebase_messaging: ^14.9.3
+  flutter_local_notifications: ^17.1.2
+  firebase_core: ^2.31.1
 
 dev_dependencies:
   flutter_test:
@@ -59,9 +49,6 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^3.0.0
-  build_runner: ^2.4.8
-  freezed: ^2.4.7
-  json_serializable: ^6.7.1
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -75,8 +62,8 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  assets:
-     - assets/images/
+  # assets:
+  #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

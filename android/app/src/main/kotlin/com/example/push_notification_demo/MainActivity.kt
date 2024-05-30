@@ -1,4 +1,4 @@
-package com.example.firebase_authentication_demo
+package com.example.push_notification_demo
 
 import io.flutter.embedding.android.FlutterActivity
 
